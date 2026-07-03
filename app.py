@@ -14,7 +14,7 @@ import torch
 app = Flask(__name__)
 app.secret_key = 'your_secret_key'
 
-configure(api_key="AIzaSyD3CiD16W3vsYD3Og144jtfbyIhjxlYiLU")
+configure(api_key="your_api_key")
 
 # Create the model
 generation_config = {
