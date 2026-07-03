@@ -51,7 +51,7 @@ with open('users.json', 'r') as f:
 
 # Weather API endpoint
 weather_api_url = 'http://api.openweathermap.org/data/2.5/weather?q={}&appid={}&units=metric'
-weather_api_key = 'ad16a027f6714488597ae31134fe887b'
+weather_api_key = 'your_api_key'
 
 @app.route('/')
 def index():
